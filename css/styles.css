@@ -152,10 +152,22 @@ color: var(--c-feetback);
 
 
 /* Main section 1 */
-.hero-section {
-    text-align: center;
+
+.hero-section { 
     background-color: var(--c-title);
-     padding: 188px 0;
+background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+text-align: center;
+padding: 188px 0;
+max-width: 1440px;
+margin: 0 auto;
 }
 
 .hero-title {
