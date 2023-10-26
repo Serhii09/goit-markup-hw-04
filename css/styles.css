@@ -205,6 +205,22 @@ background-color: var(--c-hover-button-back);
 
 /* Main section 2 */
 
+.principles-icons {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 112px;
+   margin-bottom: 8px;
+   border-radius: 4px;
+   border: 1px solid var(--c-border-c-icons);
+   background-color: var(--c-bgr-c-s);
+}
+
+.principles-icons .icon {
+width:64px;
+height: 64px;
+}
+
 .section-principles {
     background-color: var(--c-button-h1);
     padding: 120px 0;
